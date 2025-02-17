@@ -84,7 +84,7 @@ class TokenAdaptivePruner(nn.Module):
             if i < len(self.pretrainModel.blocks) - 1:
                 x = self.block_forward(blk, x)
                 # All Layer TIME
-                attn_score, pred, weighted_feat = self.TIME[i](x.detach())
+                attn_score, pred = self.TIME[i](x.detach())
                 preds.append(pred)
                 attn_scores.append(attn_score)
             else:

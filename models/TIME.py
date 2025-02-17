@@ -49,4 +49,4 @@ class Token_Importance_Measurer(nn.Module):
     def forward(self, x):
         weighted_feat, attn = self.sim_cross_attn(x)
         pred = self.aux_head(weighted_feat)
-        return attn, pred, weighted_feat
+        return attn, pred

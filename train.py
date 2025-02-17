@@ -186,20 +186,7 @@ def test(model, test_loader, epoch, save_name, args):
 
     return all_acc, old_acc, new_acc
 
-def seed_everything(seed=0):
-    import random, os
-    random.seed(seed) 
-    os.environ['PYTHONHASHSEED'] = str(seed) 
-    np.random.seed(seed)  
-    torch.manual_seed(seed) 
-    torch.cuda.manual_seed(seed)  
-    torch.cuda.manual_seed_all(seed) 
-    torch.backends.cudnn.benchmark = False  
-    torch.backends.cudnn.deterministic = True 
-
-
 if __name__ == "__main__":
-    seed_everything(0)
     parser = argparse.ArgumentParser(description='cluster', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--batch_size', default=128, type=int)
     parser.add_argument('--num_workers', default=8, type=int)
@@ -319,8 +306,6 @@ if __name__ == "__main__":
     # ----------------------
     # PROJECTION HEAD
     # ----------------------
-    # projector = DINOHead(in_dim=args.feat_dim, out_dim=args.mlp_out_dim, nlayers=args.num_mlp_layers)
-    # model = nn.Sequential(backbone, projector).to(device)
     backbone_modify = TokenAdaptivePruner(args, backbone)
     projector = DINOHead(in_dim=args.feat_dim, out_dim=args.mlp_out_dim, nlayers=args.num_mlp_layers)
     model = nn.Sequential(backbone_modify, projector).to(device)
