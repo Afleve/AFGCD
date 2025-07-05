@@ -3,27 +3,20 @@
 [![ICCV 2025 Accepted](https://img.shields.io/badge/ICCV-2025%20Accepted-brightgreen)](#)
 
 > This repository contains the official implementation of the ICCV 2025 paper:  
-> **"Your Paper Title Here"**  
-> by Your Name et al.
+> **"A Hidden Stumbling Block in Generalized Category Discovery: Distracted Attention"**  
 
 ---
 
-## 📜 Overview
-
-This project presents a novel approach for [简要说明任务或者研究方向]. Our method significantly improves [性能提升/研究突破点] on [相关数据集/任务].
-
-The core contributions include:  
-- Contribution 1  
-- Contribution 2  
-- Contribution 3
-
----
 
 ## 🚀 Installation
 
 Clone the repository and install required packages:
 
 ```bash  
-git clone https://github.com/yourusername/yourproject.git  
-cd yourproject  
+git clone https://github.com/Afleve/AFGCD  
+cd AFGCD  
 pip install -r requirements.txt  
+
+## 🙏 Acknowledgments
+- Thanks to [@CVMI Lab](https://github.com/CVMI-Lab) for their awesome [repository](https://github.com/CVMI-Lab/SimGCD).
+- Thanks to [@benbergner](https://github.com/benbergner) for their awesome [repository](https://github.com/benbergner/cropr).
