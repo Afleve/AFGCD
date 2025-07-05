@@ -21,5 +21,5 @@ pip install -r requirements.txt
 ---
 
 ## 🙏 Acknowledgments
-- Thanks to [@CVMI Lab](https://github.com/CVMI-Lab) for their awesome [repository](https://github.com/CVMI-Lab/SimGCD).
-- Thanks to [@benbergner](https://github.com/benbergner) for their awesome [repository](https://github.com/benbergner/cropr).
+- Thanks to [@CVMI Lab](https://github.com/CVMI-Lab) for their awesome [SimGCD](https://github.com/CVMI-Lab/SimGCD).
+- Thanks to [@benbergner](https://github.com/benbergner) for their awesome [Cropr](https://github.com/benbergner/cropr).
