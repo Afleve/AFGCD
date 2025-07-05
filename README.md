@@ -15,7 +15,10 @@ Clone the repository and install required packages:
 ```bash  
 git clone https://github.com/Afleve/AFGCD  
 cd AFGCD  
-pip install -r requirements.txt  
+pip install -r requirements.txt
+```
+
+---
 
 ## 🙏 Acknowledgments
 - Thanks to [@CVMI Lab](https://github.com/CVMI-Lab) for their awesome [repository](https://github.com/CVMI-Lab/SimGCD).
