@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 
 ```bibtex
-@inproceedings{AFGCD2025iccv,
-  author    = {Qiyu Xu and Zhanxuan Hu and Yu Duan and Ercheng Pei and Yonghang Tai},
-  title     = {Replace with the paper's actual title},
-  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year      = {2025},
-  pages     = {405--414},
-  note      = {ICCV 2025}
+@InProceedings{AFGCD2025ICCV,
+    author    = {Xu, Qiyu and Hu, Zhanxuan and Duan, Yu and Pei, Ercheng and Tai, Yonghang},
+    title     = {A Hidden Stumbling Block in Generalized Category Discovery: Distracted Attention},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {405-414}
 }
