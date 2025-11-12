@@ -25,6 +25,7 @@ pip install -r requirements.txt
 - Thanks to [@benbergner](https://github.com/benbergner) for their awesome [Cropr](https://github.com/benbergner/cropr).
 
 
+```bibtex
 @inproceedings{AFGCD2025iccv,
   author    = {Qiyu Xu and Zhanxuan Hu and Yu Duan and Ercheng Pei and Yonghang Tai},
   title     = {Replace with the paper's actual title},
