@@ -2,6 +2,9 @@
 
 [![ICCV 2025 Accepted](https://img.shields.io/badge/ICCV-2025%20Accepted-brightgreen)](https://arxiv.org/pdf/2507.14315)
 
+![paper](https://img.shields.io/badge/paper-View-blue)  
+[Paper link](https://arxiv.org/pdf/2507.14315)
+
 > This repository contains the official implementation of the ICCV 2025 paper:  
 > **"A Hidden Stumbling Block in Generalized Category Discovery: Distracted Attention"**  
 
